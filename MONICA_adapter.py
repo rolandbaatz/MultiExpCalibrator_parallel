@@ -187,6 +187,7 @@ class monica_adapter(object):
         leave = False
         while not leave:
             try:
+                #Start consumer here and save to json output
                 rec_msg = socket_collector.recv_json()
             except:
                 continue            
