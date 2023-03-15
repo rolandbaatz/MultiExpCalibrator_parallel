@@ -1,7 +1,3 @@
-from __future__ import absolute_import
-from __future__ import division
-from __future__ import print_function
-from __future__ import unicode_literals
 import numpy as np
 import spotpy
 import MONICA_adapter
@@ -31,5 +27,5 @@ class spot_setup(object):
         return self.monica_model.observations
 
     def objectivefunction(self,simulation,evaluation):
-        objectivefunction= -spotpy.objectivefunctions.rmse(evaluation,simulation)
+        objectivefunction= spotpy.objectivefunctions.rmse(evaluation,simulation)
         return objectivefunction

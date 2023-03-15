@@ -49,7 +49,7 @@
         ]
     }, 
     "NitrogenResponseOn": true, 
-    "include-file-base-path": "C:/Users/stella/Documents/GitHub/", 
+    "include-file-base-path": "${MONICA_PARAMETERS}/../", 
     "NumberOfLayers": 20, 
     "UseSecondaryYields": true
 }

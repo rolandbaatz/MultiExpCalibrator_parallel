@@ -15,7 +15,7 @@ for f in files:
         sim = json.load(_)
     
     sim["climate.csv"] = ""
-    sim["include-file-base-path"] = "${MONICA_PARAMETERS}/"
+    sim["include-file-base-path"] = "${MONICA_PARAMETERS}/..//"
     sim["output"]["events"] = []
 
     sim["output"]["csv-options"] = {}
